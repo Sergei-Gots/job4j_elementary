@@ -9,7 +9,7 @@ public class PointTest {
      * Assert distance between points (0,0) and (2,0) should be equal 2.
      */
     @Test
-    public void when00to20then2() {
+    public void when0and0to2and0then2() {
         double expected = 2;
         int x1 = 0;
         int y1 = 0;
@@ -23,7 +23,7 @@ public class PointTest {
      * Assert distance between points (1,7) and (2,10) should be approximately equal 3.16.
      */
     @Test
-    public void when17to210then3dot1428() {
+    public void when1and7to2and10then3dot16() {
         double expected = 3.16;
         int x1 = 1;
         int y1 = 7;
@@ -37,7 +37,7 @@ public class PointTest {
      * Assert distance between points (4,100) and (20,20) should be approximately equal 81.58.
      */
     @Test
-    public void when4100to2020then84() {
+    public void when4and100to20and20then81dot58() {
         double expected = 81.58;
         int x1 = 4;
         int y1 = 100;
@@ -51,7 +51,7 @@ public class PointTest {
      * Assert distance between points (10,-4) and (-10,0) should be approximately equal 20.40.
      */
     @Test
-    public void when10minus10toMinus40then10dot8882() {
+    public void when10andMinus4toMinus10and0then20dot40() {
         double expected = 20.40;
         int x1 = 10;
         int y1 = -4;
@@ -66,7 +66,7 @@ public class PointTest {
      * (Integer.MAX_VALUE/4,Integer.MIN_VALUE/4) should be approximately equal 1.51E9.
      */
     @Test
-    public void whenIntegerMinValueDivideBy4IntegerMaxValueDivideBy4toIntegerMaxValueDivideBy4IntegerMinValueDivideBy4then10dot8882() {
+    public void whenIntMinValueDivBy4IntMaxValueDivBy4toIntMaxValueDivBy4IntMinValueDivBy4then1dot51E9() {
         double expected = 1.51E9;
         int x1 = Integer.MIN_VALUE / 4;
         int y1 = Integer.MAX_VALUE / 4;
