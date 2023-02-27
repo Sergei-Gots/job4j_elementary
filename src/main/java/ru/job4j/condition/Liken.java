@@ -1,5 +1,8 @@
 package ru.job4j.condition;
 
+/**
+ *  0. Операции сравнения [#235631 #395664]
+ */
 public class Liken {
     public static void main(String[] args) {
         int first = 10;
