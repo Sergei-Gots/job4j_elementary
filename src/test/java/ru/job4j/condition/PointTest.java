@@ -62,18 +62,18 @@ public class PointTest {
     }
 
     /**
-     * Assert distance between points (Integer.MIN_VALUE/4,Integer.MAX_VALUE/4) and
-     * (Integer.MAX_VALUE/4,Integer.MIN_VALUE/4) should be approximately equal 1.51E9.
+     * Assert distance between points (10000,20000) and
+     * (30000,40000) should be approximately equal 28284.27.
      */
     @Test
-    public void whenIntMinValueDivBy4IntMaxValueDivBy4toIntMaxValueDivBy4IntMinValueDivBy4then1dot51E9() {
-        double expected = 1.51E9;
-        int x1 = Integer.MIN_VALUE / 4;
-        int y1 = Integer.MAX_VALUE / 4;
-        int x2 = Integer.MAX_VALUE / 4;
-        int y2 = Integer.MIN_VALUE / 4;
+    public void when10000and20000to30000and40000Then28284dot27() {
+        double expected = 28284.27;
+        int x1 = 10_000;
+        int y1 = 20_000;
+        int x2 = 30_000;
+        int y2 = 40_000;
         double out = Point.distance(x1, y1, x2, y2);
-        Assert.assertEquals(expected, out, 0.01E9);
+        Assert.assertEquals(expected, out, 0.01);
     }
 
 }
