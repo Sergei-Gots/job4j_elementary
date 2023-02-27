@@ -1,5 +1,8 @@
 package ru.job4j.condition;
 
+/**
+ *  4.1.0. Оператор if с блоком else [#227534 #395670]
+ */
 public class Cinema {
     public static void access(int age) {
         System.out.println("The age of the customer is : " + age);
