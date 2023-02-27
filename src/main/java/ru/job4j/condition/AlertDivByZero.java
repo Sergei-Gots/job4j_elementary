@@ -1,5 +1,8 @@
 package ru.job4j.condition;
 
+/**
+ *  4.1. Операторы ветвлений [#3611 #395668]
+ */
 public class AlertDivByZero {
     public static void possibleDiv(int number) {
         if (number == 0) {
