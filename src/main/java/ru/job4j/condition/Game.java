@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 /**
- *         К теме 4.1.1. Операторы сравнения в String. [#237406]
+ *      4.1.1. Операторы сравнения в String. [#237406]
  */
 public class Game {
     public static void menu(String name) {
