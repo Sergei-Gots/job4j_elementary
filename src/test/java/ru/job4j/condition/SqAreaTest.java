@@ -24,10 +24,10 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP0K0Then0() {
-        double expected = 0;
-        double p = 0;
-        double k = 0;
+    public void whenP10K40Then0dot625() {
+        double expected = 0.595;
+        double p = 10;
+        double k = 40;
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
